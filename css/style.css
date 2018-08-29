@@ -1,0 +1,174 @@
+html{
+background:#18252e;
+}
+body,p{margin:0;
+    padding:0;
+	font-size:100%;
+	font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.container{margin: 0 auto; width:75%;}
+#page-header{
+background:#fff;
+}
+#page-header .container img{
+ width:20%;
+ padding:10px;
+ display: block;
+ transition: width 2s;
+}
+
+#page-nav{background:#616262;}
+#page-nav a{
+padding:0 10px;
+text-decoration:none;
+color:#fff;
+}
+#page-nav a:hover{
+color:#334a58;
+}
+
+
+#home-banner{ 
+	padding:50px 0 34px;
+	background:#18252e url(../images/banner2.jpg) top center no-repeat;
+	background-size:cover;
+    min-height:100px;
+	color:#fff;
+	}
+
+
+#home-banner #home-banner-info{
+    
+    width: 30%;
+    font-size: 80%;
+    position: relative;
+    margin-left: 10px;
+    
+}
+#home-banner #home-banner-info > h3{
+    color:#244b89;
+}
+#home-banner #home-banner-info > button{
+    
+    margin-top: 5px;
+    color: azure;
+    background:#184a82;
+    border-radius: 5px;
+    
+}
+#page-content{
+background:#fff;
+}
+#page-content .container{
+ padding:10px;
+}
+#page-content .container .cars{
+width:30%;
+padding:5px;
+margin:5px;
+float:left;
+}
+#page-content .container .cars h3{
+color:#184b82;
+}
+#page-content .container .cars img{
+
+width:75%;
+}
+#page-content .container .cars span a{
+font-size:90%;
+margin:2px;
+padding:2px;
+float:right;
+background:#184b82;
+border-radius:3px;
+text-decoration:none;
+color:#fff;
+}
+#page-content .container .cars span a:hover{background:#000;}
+.clr{clear:both;}
+footer{
+padding-top:20px;
+background-size:cover;
+min-height: 100px;
+}
+footer .container{
+color:#fff;
+clear:both;
+text-align:center;
+}
+
+#new-cars img{
+    display: block;
+    transition: width 2s;
+}
+
+/* Tablet/iPads (Portrait and Landscape)*/
+@media only screen and (min-width : 768px) and (max-width : 960px){
+  .container{width:80%;} 
+    
+    #new-cars{
+    display: block;
+    transition: width 2s;
+}
+}
+
+/* Tablet/iPads (Portrait and Landscape) smaller ones */
+@media only screen and (min-width : 569px) and (max-width : 767px){
+    
+    .container{ 
+        width: 95%;
+    }
+
+    #page-content .container .cars{
+        width:100%;
+        padding-bottom:25px;
+        margin:5px;
+        float:none;
+        border-top: 1px dashed #184b82;
+        }
+    #page-content .container .cars img{
+
+        float: left;
+        width:35%;
+        margin-bottom: 10px;
+        }
+
+    
+    #page-header .container img{
+
+     width:30%;
+     padding:10px;
+            display: block;
+        transition: width 2s;
+    }
+}
+/* Smart phones (Portrait and Landscape) */
+@media only screen and (min-width : 240px) and (max-width : 568px){
+
+.container{ 
+        width: 95%;
+    }
+
+    #page-content .container .cars{
+        width:100%;
+        padding-bottom:30px;
+        margin:5px;
+        float:none;
+        border-top: 1px dashed #184b82;
+        }
+    #page-content .container .cars img{
+
+        float: left;
+        width:35%;
+        margin-bottom: 10px;
+        }
+#page-header .container img{
+     width:40%;
+     padding:10px;
+        display: block;
+        transition: width 2s;
+    }
+}
+
